@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova Formulário</title>
+    <link rel="stylesheet" href="/prova_pratica/css/estilo.css">
+</head>
+<h1>Formulario Superaçaiajin</h1>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="name">Nome:</label><br>
+            <input id="d" type="text" name="name"><br><br>
+            <label for="num">Idade:</label><br>
+            <input id="d" type="num" name="num"><br><br>
+            <label for="tel">Telefone:</label><br>
+            <input id="d" type="tel" name="tel"><br><br>
+            <label for="text">Endereço:</label><br>
+            <input id="d" type="text" name="text"><br><br>
+            <label for="pla">Planeta de Origem:</label><br>
+            <select name="pla" id="pla">
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Outros</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Dados extras</legend>
+            <label for="raca">Raça do Universo 7 preferidas:</label>
+            <select name="raca" id="raca">
+                <option>Terráqueo</option>
+                <option>Sayajim</option>
+                <option>NameKuseijim</option>
+                <option>Androide</option>
+                <option>Outros</option>
+            </select>
+
+            
+            
+            <br><br>
+            <label for="tra">Trabalho:</label>
+            <!-- radio: é a bolinha -->
+            <input type="radio" name="trabalho" id="auto" value="auto">
+            <label for="auto">Autonomo</label>
+            <input type="radio" name="trabalho" id="empr" value="empr">
+            <label for="empr">Empregado CLT</label>
+            <input type="radio" name="trabalho" id="empresario" value="empresario">
+            <label for="empresario">Empresário</label>
+            <input type="radio" name="trabalho" id="tipo" value="tipo">
+            <label for="tipo">Tipo Goku</label>
+
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Seu açai é perfeito de que jeito?</legend>
+            <input type="checkbox" name="1" valeu="azul">Puro
+            <input type="checkbox" name="2" valeu="vermelho">Com Banana
+            <input type="checkbox" name="3" valeu="verde">Com Morango
+            <input type="checkbox" name="4" valeu="Amarelo">Com Granola
+            <input type="checkbox" name="5" valeu="Amarelo">Tem gosto de Terra
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Qual o tamanho preferido?</legend>
+            <input type="radio" name="tamanho" id="5" value="5">
+            <label for="5">500ml</label>
+            <input type="radio" name="tamanho" id="3" value="3">
+            <label for="3">Empregado CLT</label>
+            <input type="radio" name="tamanho" id="1" value="1">
+            <label for="1">Empresário</label>
+            <input type="radio" name="tamanho" id="casqu" value="casqu">
+            <label for="casq">Tipo Goku</label>
+            <input type="radio" name="tamanho" id="qual" value="qual">
+            <label for="qual">Qual parte do gosto de terra você não entendeu?</label>
+        </fieldset>
+    </form><br>
+
+    <form>
+        <fieldset>
+            <label for="ob">Observações</label><br>
+            <textarea id="ob" cols="195" rows="8">Escreva suas Observações... Eu gosto de açai porque... </textarea>
+        </fieldset>
+    </form>
+    <br>
+    <button type="submit">ENVIAR</button>
+    <button type="submit">LIMPAR </button>
+</body>
+
+</html>
