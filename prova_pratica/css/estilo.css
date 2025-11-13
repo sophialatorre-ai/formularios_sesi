@@ -6,14 +6,11 @@ body fieldset {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-style: solid;
     padding: 10px;
-
-
 }
 
 body {
     background-color: indigo;
     background-size: 30%;
-
 }
 
 h1 {
@@ -25,7 +22,6 @@ h1 {
     border-color: gold;
     background-color: darkmagenta;
     border-style: dotted;
-
 }
 
 #d{
@@ -45,5 +41,4 @@ button {
     border-radius: 10px;
     width: 100px;
     height: 40px;
-
 }
